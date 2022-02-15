@@ -1379,7 +1379,8 @@ th {
 
 @media (min-width: 80em) {
     .masthead__inner-wrap {
-        max-width: 1280px
+        /* max-width: 1280px */
+        max-width: 1080px
     }
 }
 
