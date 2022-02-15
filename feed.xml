@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
     <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-    <link href="https://deeperaction.github.io/feed.xml" rel="self" type="application/atom+xml" />
-    <link href="https://deeperaction.github.io/" rel="alternate" type="text/html" />
+    <link href="https://videopipe.github.io/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://videopipe.github.io/" rel="alternate" type="text/html" />
     <updated>2021-12-08T23:03:47-08:00</updated>
-    <id>https://deeperaction.github.io/feed.xml</id>
-    <title type="html">DeeperAction</title>
+    <id>https://videopipe.github.io/feed.xml</id>
+    <title type="html">VideoPipe</title>
     <subtitle>Challenge and Workshop on Localized and Detailed Understanding of Human Actions in Videos</subtitle>
     <author>
         <name>
