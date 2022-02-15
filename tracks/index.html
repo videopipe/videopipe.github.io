@@ -138,6 +138,22 @@
                 <header>
                     <h1 class="page__title" itemprop="headline">Tracks</h1>
                 </header>
+                <h2 id="aims-and-scope">General description of the problem</h2>
+                <p class="text-justify">Video anomaly analysis is important for industrial applications in the real world. 
+                    In particular, the urban pipe system is one of the most important infrastructures in a city. 
+                    In order to ensure its normal operation, we need to inspect pipe defects smartly.</p>
+                <ul>
+                    <li><i><b>Quick-View (QV) Inspection</b></i> is one commonly-used technology. However, it is quite 
+                        labor-intensive to find defects from a huge number of QV videos. To tackle such problem, 
+                        we collect a high-quality QV-Pipe dataset and propose this video defect classification task, 
+                        for automatic, efficient and accurate inspection.</li>
+                    <li><i><b>Closed-Circuit TeleVision (CCTV)</b></i> is another popular method for pipe defect inspection. 
+                        Different from short QV videos, CCTV videos are much longer and record more comprehensive 
+                        content in the very distant pipe. The main task is to discover temporal locations of 
+                        pipe defects in such untrimmed videos. Clearly, manual inspection is expensive, based on 
+                        hundreds of hours of CCTV videos. To fill this gap, we proposal a new video benchmark (i.e., CCTV-Pipe) 
+                        and introduce this temporal localization task for video defect inspection.</li>
+                </ul>
 
                 <h2 class="archive__item-title" itemprop="headline" style="text-decoration:underline;">Task 1: Video Defect Classification</h2>
                 <p class="archive__item-excerpt" itemprop="description">
@@ -145,10 +161,14 @@
                         <center> <span class="image fit"> <img src='../images/QV-Pipe Dataset.png' style="width: 60%;"> </span> 
                             <p>Figure 1. Examples of Our QV-Pipe Dataset.</p></center>
                         </p>
+                    <!-- <p style="text-align:justify; text-justify:inter-ideograph;"><b><i>Pipe Quick-View (QV)</i></b> Inspection is one commonly-used technology. 
+                        However, it is quite labor-intensive to find defects from a huge number of QV videos. To tackle such problem, we collect a high-quality 
+                        QV-Pipe dataset and propose this video defect classification task, for automatic, efficient and accurate inspection.</p> -->
                     <p style="text-align:justify; text-justify:inter-ideograph;"><b><i>Evaluation Metric</i></b></p>
                     <p style="text-align:justify; text-justify:inter-ideograph;">Since each video contains multiple defect categories, 
                         we use Average Precision (AP) to evaluate the recognition results on each defect category. Then we average AP 
                         over all the categories to obtain mAP.</p>
+                    <p>Please refer to the <a href="#">competition page</a> for more information.</p>
                 </p>
 
                 <h2 class="archive__item-title" itemprop="headline" style="text-decoration:underline;">Task 2: Temporal Defect Localization</h2>
@@ -157,6 +177,7 @@
                         <center> <span class="image fit"> <img src='../images/CCTV-Pipe Dataset.png' style="width: 60%;"> </span> 
                             <p>Figure 2. Examples of Our CCTV-Pipe Dataset.</p></center>
                     </p>
+                    
                     <p style="text-align:justify; text-justify:inter-ideograph;"><b><i>Evaluation Metric</i></b></p>
                     <p style="text-align:justify; text-justify:inter-ideograph;">Referring to temporal action localization, we use Average 
                         Precision (AP) to evaluate the defect localization results on each defect category. Then we average AP over all 
@@ -164,12 +185,13 @@
                         predicted defect and the ground truth to check if this prediction is a true positive. Finally, we use the 
                         average mAP as evaluation metric, which is the mean of mAP with all the temporal distances (from 1 second 
                         to 10 seconds, with 1 second interval).</p>
+                    <p>Please refer to the <a href="#">competition page</a> for more information.</p>
                 </p>
 
-                <p style="text-align:justify; text-justify:inter-ideograph;">We host the challenges on the platform of codelab. 
+                <!-- <p style="text-align:justify; text-justify:inter-ideograph;">We host the challenges on the platform of codelab. 
                     The participant can only see the labels of training set and validation set. The results on test set are submitted 
                     through the platform and evaluated by the evaluation server.
-                </p>
+                </p> -->
                 <!-- <section class="page__content" itemprop="text">
                     <div class="list__item">
                         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
