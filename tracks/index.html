@@ -2,9 +2,6 @@
 <html lang="en" class="no-js">
 
 <head>
-    <!-- Jekyll Ideal Image Slider Include -->
-    <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-    <!-- v1.8 -->
     <meta charset="utf-8"> <!-- begin SEO -->
     <title>Tracks - VideoPipe</title>
     <meta property="og:locale" content="en-US">
@@ -12,17 +9,6 @@
     <meta property="og:title" content="Tracks">
     <link rel="canonical" href="index.html">
     <meta property="og:url" content="https://videopipe.github.io/tracks/">
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Person",
-            "name": "VideoPipe",
-            "url": "https://videopipe.github.io",
-            "sameAs": null
-        }
-    </script> <!-- end SEO -->
-    <link href="../feed.xml" type="application/atom+xml" rel="alternate" title="VideoPipe Feed">
-    <!-- http://t.co/dKP3o1e -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,31 +17,17 @@
     </script> <!-- For all browsers -->
     <link rel="stylesheet" href="../assets/css/main.css">
     <meta http-equiv="cleartype" content="on"> <!-- start custom head snippets -->
-    
-    <!-- <link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32"> -->
-    <!-- <link rel="icon" type="image/png" href="https://videopipe.github.io/images/android-chrome-192x192.png"
-        sizes="192x192"> -->
-    <!-- <link rel="icon" type="image/png" href="../images/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="../images/manifest.json">
-    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#000000"> -->
     <link rel="shortcut icon" href="../images/favicon.ico">
     <meta name="msapplication-TileColor" content="#000000">
-    <!-- <meta name="msapplication-TileImage" content="https://videopipe.github.io/images/mstile-144x144.png">
-    <meta name="msapplication-config" content="https://videopipe.github.io/images/browserconfig.xml"> -->
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="../assets/css/academicons.css" />
     <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); 
     </script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script>
-    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script> -->
-    <!-- end custom head snippets -->
 </head>
 
-<body>
-    <!--[if lt IE 9]><div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
-    <!-- 头部内容 -->
+<body><!-- 头部内容 -->
     <div style="background-image: url('../images/top_no_text.png'); background-size: 100% 100%; height:200px; border=20px; min-width: 760px;"
         class="center">
         <div style="background-color: rgba(256,256,256,0.6); width: 100%; height: 100%; min-width: 760px;">
@@ -150,9 +122,6 @@
                             <!-- <p>Figure 1. Examples of Our QV-Pipe Dataset.</p> -->
                         </center>
                         </p>
-                    <!-- <p style="text-align:justify; text-justify:inter-ideograph;"><b><i>Pipe Quick-View (QV)</i></b> Inspection is one commonly-used technology. 
-                        However, it is quite labor-intensive to find defects from a huge number of QV videos. To tackle such problem, we collect a high-quality 
-                        QV-Pipe dataset and propose this video defect classification task, for automatic, efficient and accurate inspection.</p> -->
                     <p style="text-align:justify; text-justify:inter-ideograph;"><b><i>Evaluation Metric</i></b></p>
                     <p style="text-align:justify; text-justify:inter-ideograph;">Since each video contains multiple defect categories, 
                         we use Average Precision (AP) to evaluate the recognition results on each defect category. Then we average AP 
@@ -180,54 +149,12 @@
                     <p>Please refer to the <a href="https://codalab.lisn.upsaclay.fr/competitions/2284">competition page</a> for more information.</p>
                     <p><b><i>Contact Us</i></b> : Yi Liu ( <a href="mailto:yi.liu1@siat.ac.cn">yi.liu1@siat.ac.cn</a> )</p>
                 </p>
-
-                <!-- <p style="text-align:justify; text-justify:inter-ideograph;">We host the challenges on the platform of codelab. 
-                    The participant can only see the labels of training set and validation set. The results on test set are submitted 
-                    through the platform and evaluated by the evaluation server.
-                </p> -->
-                <!-- <section class="page__content" itemprop="text">
-                    <div class="list__item">
-                        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                            <h2 class="archive__item-title" itemprop="headline"> <a href="1-fineaction/index.html"
-                                    rel="permalink">FineAction Challenge on Temporal Action Localization </a></h2>
-                            <p class="archive__item-excerpt" itemprop="description">
-                                <p>Detecting all segments of containing actions of interest and recognizing their
-                                    categories from a long video sequence. <br /><img
-                                        src="../images/refinedaction.gif" /></p>
-                            </p>
-                        </article>
-                    </div>
-                    <div class="list__item">
-                        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                            <h2 class="archive__item-title" itemprop="headline"> <a href="2-multisports/index.html"
-                                    rel="permalink">MultiSports Challenge on Spatio-Temporal Action Detection </a></h2>
-                            <p class="archive__item-excerpt" itemprop="description">
-                                <p>Localizing all action instances with spatio-temporal tubes and recognizing their
-                                    labels from untrimmed and multi-person videos. <br /><img
-                                        src="../images/sports.gif" /></p>
-                            </p>
-                        </article>
-                    </div>
-                    <div class="list__item">
-                        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                            <h2 class="archive__item-title" itemprop="headline"> <a href="3-kineticstps/index.html"
-                                    rel="permalink">Kinetics-TPS Challenge on Part-level Action Parsing </a></h2>
-                            <p class="archive__item-excerpt" itemprop="description">
-                                <p>Predicting human location, body part location, part state in the frame level, and
-                                    then integrate these results together to predict human action in the video level.
-                                    <br /><img src="../images/track3.gif" /></p>
-                            </p>
-                        </article>
-                    </div>
-                </section> -->
                 <footer class="page__meta"></footer>
             </div>
         </article>
     </div>
     <div class="page__footer">
         <footer>
-            <!-- start custom footer snippets -->
-            <!-- end custom footer snippets -->
             <div class="page__footer-follow">
                 <ul class="social-icons"></ul>
             </div>
